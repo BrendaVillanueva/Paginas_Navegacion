@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Paginas_Navegacion.Datos">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Coral">
+            <Label Text="Brenda Itzel Esteban Villanueva" HorizontalOptions="Center" Font="28"/>
+            <Label Text="13090416" HorizontalOptions="Center" Font="28"/>
+            <Button Text="Siguiente Pagina" HorizontalOptions="Center" Font="22" BackgroundColor="Violet" Clicked="Button_Clicked" />
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

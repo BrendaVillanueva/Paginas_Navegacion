@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Paginas_Navegacion.Calculadora">
+    <ContentPage.Content>
+     
+            <Grid>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
+
+
+                <Label Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" TextColor="BlueViolet" Font="45" x:Name="caja"/>
+                <Button Grid.Column="0" Grid.Row="1" Text="%" BackgroundColor="Pink" Clicked="Porcentaje_Clicked"/>
+                <Button Grid.Column="1" Grid.Row="1" Text="SQRT" BackgroundColor="Pink" Clicked="Raiz_Clicked"/>
+                <Button Grid.Column="2" Grid.Row="1" Text="^2" BackgroundColor="Pink" Clicked="Potencia_Clicked"/>
+                <Button Grid.Column="3" Grid.Row="1" Text="Regresa Inicio" BackgroundColor="LightBlue" Clicked="RI_Clicked"/>
+                <Button Grid.Column="0" Grid.Row="2" Text="CE" BackgroundColor="Pink" Clicked="Ce_Clicked"/>
+                <Button Grid.Column="1" Grid.Row="2" Text="C" BackgroundColor="Pink" Clicked="C_Clicked"/>
+                <Button Grid.Column="2" Grid.Row="2" Text="←" BackgroundColor="Pink"/>
+                <Button Grid.Column="3" Grid.Row="2" Text="/" BackgroundColor="Pink" Clicked="Division_Clicked"/>
+                <Button Grid.Column="0" Grid.Row="3" Text="7" BackgroundColor="Pink" Clicked="Siete_Clicked"/>
+                <Button Grid.Column="1" Grid.Row="3" Text="8" BackgroundColor="Pink" Clicked="Ocho_Clicked"/>
+                <Button Grid.Column="2" Grid.Row="3" Text="9" BackgroundColor="Pink" Clicked="Nueve_Clicked"/>
+                <Button Grid.Column="3" Grid.Row="3" Text="X" BackgroundColor="Pink" Clicked="Multi_Clicked"/>
+                <Button Grid.Column="0" Grid.Row="4" Text="4" BackgroundColor="Pink" Clicked="Cuatro_Clicked"/>
+                <Button Grid.Column="1" Grid.Row="4" Text="5" BackgroundColor="Pink" Clicked="Cinco_Clicked"/>
+                <Button Grid.Column="2" Grid.Row="4" Text="6" BackgroundColor="Pink" Clicked="Seis_Clicked"/>
+                <Button Grid.Column="3" Grid.Row="4" Text="-" BackgroundColor="Pink" Clicked="Menos_Clicked"/>
+                <Button Grid.Column="0" Grid.Row="5" Text="1" BackgroundColor="Pink" Clicked="Uno_Clicked"/>
+                <Button Grid.Column="1" Grid.Row="5" Text="2" BackgroundColor="Pink" Clicked="Dos_Clicked"/>
+                <Button Grid.Column="2" Grid.Row="5" Text="3" BackgroundColor="Pink" Clicked="Tres_Clicked"/>
+                <Button Grid.Column="3" Grid.Row="5" Text="+" BackgroundColor="Pink" Clicked="Mas_Clicked"/>
+                <Button Grid.Column="0" Grid.Row="6" Text="±" BackgroundColor="Pink" Clicked="Mm_Clicked"/>
+                <Button Grid.Column="1" Grid.Row="6" Text="0" BackgroundColor="Pink" Clicked="Cero_Clicked"/>
+                <Button Grid.Column="2" Grid.Row="6" Text="." BackgroundColor="Pink" Clicked="Punto_Clicked"/>
+                <Button Grid.Column="3" Grid.Row="6" Text="=" BackgroundColor="Pink" Clicked="Igual_Clicked"/>
+
+            </Grid>
+    </ContentPage.Content>
+</ContentPage>
